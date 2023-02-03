@@ -319,7 +319,7 @@ function loadLevel(level) {
           world.push(new Tower(j - 2, -i, data[index].obstacle));
           break;
         case 18:
-          world.push(new Upobstacle(j - 2, -i, data[index].obstacle));
+          world.push(new Xmat(j - 2, -i, data[index].mat));
           break;
         case 19:
           world.push(new Downobstacle(j - 2, -i, data[index].mat));
